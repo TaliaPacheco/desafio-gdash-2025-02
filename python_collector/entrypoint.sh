@@ -15,8 +15,8 @@ echo ""
 
 echo "=== Iniciando aplicação ==="
 echo "Testando sintaxe do Python..."
-python -m py_compile weather_api.py && echo "✓ Sintaxe OK" || echo "✗ Erro de sintaxe"
+python -m py_compile weather.py && echo "✓ Sintaxe OK" || echo "✗ Erro de sintaxe"
 echo ""
 
-echo "Executando weather_api.py com output unbuffered..."
-python -u weather_api.py
+echo "Executando weather.py com output unbuffered..."
+python -u weather.py
